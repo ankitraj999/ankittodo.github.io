@@ -1,0 +1,53 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+  <app-navbar></app-navbar>
+
+<div id="id1" class="row" >
+  <div class="col-md-7">
+      <router-outlet></router-outlet>
+  </div>
+
+<div class="col-md-5">
+    
+        <h1>
+          Welcome to {{ title }}!
+        </h1>
+        <img width="300" alt="Awesome Logo" src="assets/image/1.jpeg">
+        <hr>
+        <hr>
+        <div class="well">
+        <carousel>
+            <slide>
+              <img src="../../../assets/image/2.jpeg" alt="first slide" style="display: block; width: 100%;">
+            </slide>
+            <slide>
+              <img src="../../../assets/image/3.jpeg" alt="second slide" style="display: block; width: 100%;">
+            </slide>
+            <slide>
+              <img src="../../../assets/image/4.jpeg" alt="third slide" style="display: block; width: 100%;">
+            </slide>
+          </carousel>
+        </div>
+    
+</div>
+</div>
+<hr>
+
+<footer>
+  <div class="row">
+    <div class="col-md-7">
+      <span class="text-danger">
+        <strong> This site is copyright &copy;  Awesome
+          all right reserve
+        </strong>
+      </span>
+    </div>
+    <div class="col-md-5">
+      <span class="text-primary text-right">
+        <strong>{{today|date:'dd/MM/yyyy'}}</strong>
+      </span>
+    </div>
+  </div>
+</footer>
+
